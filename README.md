@@ -1,4 +1,4 @@
-# Baekjoon Online Judge
+# Baekjoon Online Judge HUB
 
 https://www.acmicpc.net/problem
 
