@@ -1,14 +1,9 @@
-#define _CRT_SECURE_NO_WARNINGS
-#include <stdio.h>
+#include <bits/stdc++.h>
 
-int main()
-{
-	int A, B;
+using namespace std;
 
-	scanf("%d", &A);
-	scanf("%d", &B);
-
-	printf("%d", A + B);
-
-	return 0;
+int main() {
+	int a, b;
+	cin >> a >> b;
+	cout << a + b;
 }
