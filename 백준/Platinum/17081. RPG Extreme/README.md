@@ -1,4 +1,4 @@
-# [Platinum I] RPG Extreme - 17081 
+# [Platinum II] RPG Extreme - 17081 
 
 [문제 링크](https://www.acmicpc.net/problem/17081) 
 
@@ -8,11 +8,11 @@
 
 ### 분류
 
-구현(implementation), 시뮬레이션(simulation)
+구현, 시뮬레이션
 
 ### 문제 설명
 
-<p style="text-align: center;"><img alt="" src="https://upload.acmicpc.net/ad60f113-37b3-4ea5-918a-8fc8165f93c4/-/preview/" style="height: 240px; width: 150px;"></p>
+<p style="text-align: center;"><img alt="" src="" style="height: 240px; width: 150px;"></p>
 
 <p>요즘 택희는 RPG 게임을 하고 있다. 던전을 헤쳐나가며 몬스터를 물리치고, 아이템을 모으고, 레벨 업을 하여 보스 몬스터를 물리치는 전형적인 RPG 게임이다.</p>
 
