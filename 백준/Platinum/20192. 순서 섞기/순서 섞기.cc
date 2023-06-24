@@ -21,19 +21,15 @@ int main() {
         for(int i = 2; i <= N; i++) {
             if(arr[i-1] != arr[i]) {
                 chloc = i, chval = diff[i];
-                break;
             }
         }
 
         for(int i = 1; i <= chloc; i++) diff[i] = chval;
     }
     
-    diff[0] = 1;
-
-    for(int i = 1; i <= N; i++) {
+    for(int i = 2; i <= N; i++) {
         dt += diff[i] != diff[i-1];
     }
-
 
     int ans = 0;
     while(dt != 0) {
@@ -41,5 +37,5 @@ int main() {
         ans++;
     }
 
-    cout << ans;
+    cout << ans + (dt%2 == 1 && diff[1] == 0);
 }
